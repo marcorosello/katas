@@ -17,4 +17,8 @@ class Player
     public function getPoints() {
         return $this->points;
     }
+
+    public function getName() {
+        return $this->name;
+    }
 }
